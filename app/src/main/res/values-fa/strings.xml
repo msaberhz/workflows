@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">نت‌فیوژن (NetFusion)</string>
+    <string name="notification_channel_name">وضعیت وی‌پی‌ان نت‌فیوژن</string>
+    <string name="notification_channel_desc">نمایش وضعیت ترکیب اتصال و حالت هوشمند</string>
+
+    <string name="nav_dashboard">داشبورد</string>
+    <string name="nav_connections">اتصال‌ها</string>
+    <string name="nav_speed_test">تست سرعت</string>
+    <string name="nav_stats">آمار</string>
+    <string name="nav_settings">تنظیمات</string>
+
+    <string name="action_connect">اتصال</string>
+    <string name="action_disconnect">قطع اتصال</string>
+    <string name="action_save">ذخیره</string>
+    <string name="action_ok">تایید</string>
+
+    <string name="status_disconnected">قطع شده</string>
+    <string name="status_connecting">در حال اتصال…</string>
+    <string name="status_connected_smart">متصل • حالت هوشمند</string>
+    <string name="status_connected_bonded">متصل • ترکیب وای‌فای + موبایل</string>
+    <string name="status_degraded_single_path">متصل • حالت تک‌مسیره</string>
+    <string name="status_reconnecting">در حال اتصال مجدد…</string>
+    <string name="status_error">خطا در اتصال</string>
+
+    <string name="bonding_active_badge">ترکیب واقعی چندمسیره فعال است</string>
+    <string name="bonding_share_summary">توزیع ترافیک: وای‌فای %1$d%% • موبایل %2$d%%</string>
+
+    <string name="label_wifi">وای‌فای</string>
+    <string name="label_mobile_data">انترنت موبایل</string>
+    <string name="label_active_route">مسیر فعال</string>
+
+    <string name="net_disconnected">در دسترس نیست</string>
+    <string name="net_ready_rtt">تایید شده • %1$s</string>
+    <string name="net_limited">متصل (محدود)</string>
+    <string name="net_stability_score">پایداری: %1$d/100</string>
+
+    <string name="metric_download">دانلود</string>
+    <string name="metric_upload">آپلود</string>
+    <string name="metric_ping">پینگ</string>
+    <string name="metric_jitter">جیتر</string>
+    <string name="metric_packet_loss">ضایعات بسته</string>
+    <string name="metric_data_usage">مصرف دیتا</string>
+    <string name="metric_uptime">مدت اتصال</string>
+
+    <string name="limit_server_not_configured">سرور ترکیب تنظیم نشده است. برنامه در حالت هوشمند (تغییر خودکار مسیر) بدون ترکیب پهنای باند کار می‌کند.</string>
+    <string name="limit_single_interface">فقط یک شبکه در دسترس است. برای ترکیب سرعت، همزمان به وای‌فای و انترنت موبایل نیاز است.</string>
+    <string name="limit_cellular_restricted">نگهداری همزمان انترنت موبایل کنار وای‌فای در این دستگاه یا سیم‌کارت محدود شده است.</string>
+    <string name="limit_server_unreachable">سرور ترکیب در دسترس نیست. به صورت خودکار به حالت هوشمند منتقل شد.</string>
+    <string name="limit_auth_failed">احراز هویت سرور ناموفق بود. توکن امنیتی را بررسی کنید.</string>
+
+    <string name="mode_smart_title">حالت هوشمند (تغییر خودکار)</string>
+    <string name="mode_smart_desc">تاخیر، ضایعات بسته و پایداری وای‌فای و 4G/5G را بررسی کرده و بهترین شبکه را بدون نیاز به سرور خارجی انتخاب می‌کند.</string>
+    <string name="mode_bonding_title">حالت ترکیب (VPN چندمسیره)</string>
+    <string name="mode_bonding_desc">ترافیک را به صورت همزمان از طریق وای‌فای و انترنت موبایل با رمزنگاری AES-256-GCM به سرور لینوکس ارسال کرده و سرعت را ترکیب می‌کند.</string>
+    <string name="connections_health_title">سلامت شبکه‌ها</string>
+
+    <string name="speedtest_start">شروع تست سرعت</string>
+    <string name="speedtest_running">در حال آزمایش…</string>
+    <string name="speedtest_history">نتایج اخیر</string>
+
+    <string name="stats_realtime_graph">نمودار سرعت لحظه‌ای</string>
+    <string name="stats_daily_usage">مصرف امروز</string>
+    <string name="stats_monthly_usage">مصرف ۳۰ روز اخیر</string>
+    <string name="stats_total">مجموع</string>
+    <string name="stats_bonding_perf">عملکرد موتور ترکیب</string>
+    <string name="stats_reordered_packets">بسته‌های مرتب‌شده</string>
+    <string name="stats_dropped_late">بسته‌های تکراری/تاخیری حذف‌شده</string>
+    <string name="stats_total_bonded_time">مجموع زمان ترکیب</string>
+
+    <string name="settings_language">زبان برنامه</string>
+    <string name="settings_theme">پوسته ظاهری</string>
+    <string name="theme_dark">تاریک</string>
+    <string name="theme_light">روشن</string>
+    <string name="theme_system">مطابق سیستم</string>
+    <string name="settings_auto_connect_boot">اتصال خودکار هنگام روشن شدن گوشی</string>
+    <string name="settings_battery_opt">غیرفعال‌سازی بهینه‌سازی باتری</string>
+    <string name="settings_server_title">تنظیمات سرور ترکیب</string>
+    <string name="settings_server_host">آی‌پی یا دامنه سرور</string>
+    <string name="settings_server_port">پورت UDP (پیش‌فرض 51880)</string>
+    <string name="settings_server_token">توکن امنیتی مشترک</string>
+    <string name="settings_custom_dns">سرور DNS دلخواه</string>
+    <string name="settings_privacy_title">امنیت و حریم خصوصی</string>
+    <string name="settings_privacy_body">نت‌فیوژن محتوای ترافیک شما را جمع‌آوری یا ذخیره نمی‌کند. تمام بسته‌ها با الگوریتم AES-256-GCM بین گوشی و سرور شخصی شما رمزنگاری می‌شوند. توجه داشته باشید که حالت ترکیب همزمان از دیتای موبایل نیز مصرف می‌کند.</string>
+
+    <string name="error_vpn_establish_failed">ایجاد رابط وی‌پی‌ان اندروید ناموفق بود.</string>
+</resources>

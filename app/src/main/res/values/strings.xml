@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NetFusion</string>
+    <string name="notification_channel_name">NetFusion VPN Status</string>
+    <string name="notification_channel_desc">Shows active connection bonding and Smart Mode status</string>
+
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_connections">Connections</string>
+    <string name="nav_speed_test">Speed Test</string>
+    <string name="nav_stats">Statistics</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="action_connect">Connect</string>
+    <string name="action_disconnect">Disconnect</string>
+    <string name="action_save">Save</string>
+    <string name="action_ok">OK</string>
+
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_connected_smart">Connected • Smart Mode</string>
+    <string name="status_connected_bonded">Connected • Wi-Fi + Mobile Bonded</string>
+    <string name="status_degraded_single_path">Connected • Single-Path Fallback</string>
+    <string name="status_reconnecting">Reconnecting…</string>
+    <string name="status_error">Connection Error</string>
+
+    <string name="bonding_active_badge">Real Multipath Bonding Active</string>
+    <string name="bonding_share_summary">Traffic Split: Wi-Fi %1$d%% • Mobile %2$d%%</string>
+
+    <string name="label_wifi">Wi-Fi</string>
+    <string name="label_mobile_data">Mobile Data</string>
+    <string name="label_active_route">Active Route</string>
+
+    <string name="net_disconnected">Unavailable</string>
+    <string name="net_ready_rtt">Validated • %1$s</string>
+    <string name="net_limited">Connected (Limited)</string>
+    <string name="net_stability_score">Stability: %1$d/100</string>
+
+    <string name="metric_download">Download</string>
+    <string name="metric_upload">Upload</string>
+    <string name="metric_ping">Ping</string>
+    <string name="metric_jitter">Jitter</string>
+    <string name="metric_packet_loss">Packet Loss</string>
+    <string name="metric_data_usage">Data Used</string>
+    <string name="metric_uptime">Uptime</string>
+
+    <string name="limit_server_not_configured">Bonding server is not configured. Running in Smart Mode (automatic failover) without combined bandwidth.</string>
+    <string name="limit_single_interface">Only one network interface is currently available. Bonding requires both Wi-Fi and Mobile Data.</string>
+    <string name="limit_cellular_restricted">Mobile data could not be kept active alongside Wi-Fi on this device or carrier.</string>
+    <string name="limit_server_unreachable">Bonding gateway unreachable. Automatically switched to Smart Mode fallback.</string>
+    <string name="limit_auth_failed">Gateway authentication failed. Check your server token.</string>
+
+    <string name="mode_smart_title">Smart Mode (Intelligent Failover)</string>
+    <string name="mode_smart_desc">Monitors Wi-Fi and 4G/5G latency, packet loss, and stability, automatically switching to the best network with anti-flap protection. No remote server required.</string>
+    <string name="mode_bonding_title">Bonding Mode (Multipath VPN)</string>
+    <string name="mode_bonding_desc">Encapsulates traffic over both Wi-Fi and Mobile Data simultaneously using AES-256-GCM to your Linux bonding gateway for combined throughput and seamless resilience.</string>
+    <string name="connections_health_title">Interface Health</string>
+
+    <string name="speedtest_start">Start Speed Test</string>
+    <string name="speedtest_running">Testing…</string>
+    <string name="speedtest_history">Recent Results</string>
+
+    <string name="stats_realtime_graph">Real-Time Throughput</string>
+    <string name="stats_daily_usage">Today's Usage</string>
+    <string name="stats_monthly_usage">30-Day Usage</string>
+    <string name="stats_total">Total</string>
+    <string name="stats_bonding_perf">Bonding Engine Metrics</string>
+    <string name="stats_reordered_packets">Reordered Packets</string>
+    <string name="stats_dropped_late">Late / Duplicate Dropped</string>
+    <string name="stats_total_bonded_time">Total Bonded Time</string>
+
+    <string name="settings_language">Language</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_system">System</string>
+    <string name="settings_auto_connect_boot">Auto-connect on device boot</string>
+    <string name="settings_battery_opt">Disable Battery Optimization</string>
+    <string name="settings_server_title">Bonding Gateway Server</string>
+    <string name="settings_server_host">Server IP or Hostname</string>
+    <string name="settings_server_port">UDP Port (default 51880)</string>
+    <string name="settings_server_token">Pre-Shared Auth Token</string>
+    <string name="settings_custom_dns">Custom DNS Server</string>
+    <string name="settings_privacy_title">Security &amp; Privacy Notice</string>
+    <string name="settings_privacy_body">NetFusion never inspects, logs, or sells your traffic content. All bonded packets are encrypted with AES-256-GCM between your device and your self-hosted gateway. Bonding Mode consumes mobile data simultaneously with Wi-Fi.</string>
+
+    <string name="error_vpn_establish_failed">Failed to establish Android VPN interface.</string>
+</resources>

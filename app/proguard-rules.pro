@@ -1,0 +1,4 @@
+-keepattributes *Annotation*
+-keep class com.netfusion.app.data.local.** { *; }
+-keep class com.netfusion.app.domain.model.** { *; }
+-dontwarn kotlinx.coroutines.**
