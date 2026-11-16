@@ -60,7 +60,7 @@
     <string name="speedtest_history">Recent Results</string>
 
     <string name="stats_realtime_graph">Real-Time Throughput</string>
-    <string name="stats_daily_usage">Today's Usage</string>
+    <string name="stats_daily_usage">Today\'s Usage</string>
     <string name="stats_monthly_usage">30-Day Usage</string>
     <string name="stats_total">Total</string>
     <string name="stats_bonding_perf">Bonding Engine Metrics</string>
